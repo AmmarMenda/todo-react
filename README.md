@@ -265,5 +265,9 @@ eas login
 # Configure build
 eas build:configure
 
+# Trade Offs
+The sign in with google doesnt work on android don't know why 
+When syncing from offline to online it creates duplicate entries sometimes
+
 # Build APK for Android
 eas build --profile production --platform android
